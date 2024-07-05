@@ -1,0 +1,159 @@
+@media (max-width: 1200px) {
+  .nav-element {
+    align-self: center;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 980px) {
+  .container {
+    max-width: 95%;
+  }
+  .nav-element {
+    display: none;
+  }
+  .main-heading {
+    margin-top: 95px;
+  }
+  .main-heading .text {
+    font-size: 2rem;
+  }
+  .main-heading .sub-text {
+    font-size: 11px;
+  }
+
+  /*
+*section-1 design
+*/
+  .section-1-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cards-3 {
+    grid-column: 1/-1;
+  }
+  /*
+*section-2 design
+*/
+  .section-2 {
+    height: 350px;
+  }
+  .section-2-text {
+    width: 70%;
+  }
+
+  /*
+*section-4 design
+*/
+  .section-4-form {
+    flex-direction: column;
+  }
+  .section-4-form .left {
+    width: 100%;
+  }
+  .section-4-form .right {
+    width: 100%;
+  }
+  .contact {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 736px) {
+  .main {
+    flex-direction: column;
+    gap: 120px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+  }
+  .main-heading {
+    margin-top: 70px;
+  }
+
+  /*
+*section-1 design
+*/
+
+  .section-1 {
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section-1-text {
+    font-size: var(--h4);
+  }
+  .section-1-card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cards-info-title {
+    margin-top: 10px;
+  }
+  .cards-info-paragraph {
+    margin-top: 10px;
+  }
+  .section-1 .btn {
+    justify-self: normal;
+  }
+  /*
+*section-2 design
+*/
+  .section-2 {
+    height: 200px;
+  }
+  .section-2-text {
+    width: 70%;
+  }
+
+  /*
+*section-3 design
+*/
+  .section-3 {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .section-3-left {
+    width: 100%;
+
+    gap: 20px;
+  }
+  .title {
+    font-size: 1.2rem;
+    width: 80%;
+    color: var(--color3);
+  }
+  .section-3-right {
+    width: 100%;
+    gap: 30px;
+  }
+  .div-4 {
+    margin-top: 10px;
+  }
+  .btn-4 {
+    align-self: normal;
+  }
+  /*
+*section-4 design
+*/
+  .section-4 {
+    padding: 80px 50px;
+  }
+  .contact {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .section-4-title {
+    font-size: 1rem;
+  }
+  .two-input {
+    display: flex;
+    flex-direction: column;
+  }
+  #text {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #massage {
+    margin-top: 8px;
+  }
+  .contact {
+    gap: 10px;
+  }
+}
